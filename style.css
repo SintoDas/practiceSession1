@@ -60,6 +60,7 @@
 .btn:hover {
   background-color: burlywood;
 }
+/* about */
 .about-container {
   display: flex;
   align-items: center;
@@ -80,4 +81,44 @@
 }
 span {
   color: blueviolet;
+}
+/* services */
+.service-title {
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+}
+.services {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-image: url("images/background.png"),
+    linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
+}
+
+.service {
+  width: 230px;
+  height: 350px;
+  box-shadow: 4px 4px 20px grey;
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 100px;
+}
+.icon {
+  width: 70px;
+}
+.box-btn {
+  background-color: grey;
+  margin-top: 10px;
+}
+.service-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.service-description {
+  padding: 10px;
 }
